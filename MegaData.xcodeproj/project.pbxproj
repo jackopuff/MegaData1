@@ -6,13 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		B74572D21E4BA20F00FBD30B /* NodeRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B74572D11E4BA20F00FBD30B /* NodeRunner.cpp */; };
-		B74572D51E4BA22100FBD30B /* DataStructureController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B74572D31E4BA22100FBD30B /* DataStructureController.cpp */; };
-		B74572D81E4BA23600FBD30B /* IntNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B74572D61E4BA23600FBD30B /* IntNode.cpp */; };
-		B74572DB1E4BA24500FBD30B /* IntNodeArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B74572D91E4BA24500FBD30B /* IntNodeArray.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		B74572C21E4BA1D500FBD30B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -26,14 +19,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B74572C41E4BA1D500FBD30B /* MegaData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MegaData; sourceTree = BUILT_PRODUCTS_DIR; };
-		B74572D11E4BA20F00FBD30B /* NodeRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeRunner.cpp; sourceTree = "<group>"; };
-		B74572D31E4BA22100FBD30B /* DataStructureController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataStructureController.cpp; sourceTree = "<group>"; };
-		B74572D41E4BA22100FBD30B /* DataStructureController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DataStructureController.hpp; sourceTree = "<group>"; };
-		B74572D61E4BA23600FBD30B /* IntNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntNode.cpp; sourceTree = "<group>"; };
-		B74572D71E4BA23600FBD30B /* IntNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IntNode.hpp; sourceTree = "<group>"; };
-		B74572D91E4BA24500FBD30B /* IntNodeArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntNodeArray.cpp; sourceTree = "<group>"; };
-		B74572DA1E4BA24500FBD30B /* IntNodeArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IntNodeArray.hpp; sourceTree = "<group>"; };
+		B74572C41E4BA1D500FBD30B /* MegaData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = MegaData; path = "/Users/jcar8281/Documents/C++/MegaData/build/Debug/MegaData"; sourceTree = "<absolute>"; };
+		B74572DC1E4BBC8800FBD30B /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = "<group>"; };
+		B74572DD1E4BBC8800FBD30B /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,46 +39,16 @@
 			isa = PBXGroup;
 			children = (
 				B74572C61E4BA1D500FBD30B /* MegaData */,
-				B74572C51E4BA1D500FBD30B /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		B74572C51E4BA1D500FBD30B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B74572C41E4BA1D500FBD30B /* MegaData */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B74572C61E4BA1D500FBD30B /* MegaData */ = {
 			isa = PBXGroup;
 			children = (
-				B74572CF1E4BA1ED00FBD30B /* Controller */,
-				B74572CE1E4BA1E700FBD30B /* Model */,
+				B74572DC1E4BBC8800FBD30B /* Controller */,
+				B74572DD1E4BBC8800FBD30B /* Model */,
 			);
 			path = MegaData;
-			sourceTree = "<group>";
-		};
-		B74572CE1E4BA1E700FBD30B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B74572D61E4BA23600FBD30B /* IntNode.cpp */,
-				B74572D71E4BA23600FBD30B /* IntNode.hpp */,
-				B74572D91E4BA24500FBD30B /* IntNodeArray.cpp */,
-				B74572DA1E4BA24500FBD30B /* IntNodeArray.hpp */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		B74572CF1E4BA1ED00FBD30B /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				B74572D11E4BA20F00FBD30B /* NodeRunner.cpp */,
-				B74572D31E4BA22100FBD30B /* DataStructureController.cpp */,
-				B74572D41E4BA22100FBD30B /* DataStructureController.hpp */,
-			);
-			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +94,7 @@
 				en,
 			);
 			mainGroup = B74572BB1E4BA1D500FBD30B;
-			productRefGroup = B74572C51E4BA1D500FBD30B /* Products */;
+			productRefGroup = B74572BB1E4BA1D500FBD30B;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -150,10 +108,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B74572D81E4BA23600FBD30B /* IntNode.cpp in Sources */,
-				B74572DB1E4BA24500FBD30B /* IntNodeArray.cpp in Sources */,
-				B74572D21E4BA20F00FBD30B /* NodeRunner.cpp in Sources */,
-				B74572D51E4BA22100FBD30B /* DataStructureController.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
