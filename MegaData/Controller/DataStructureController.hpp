@@ -9,6 +9,9 @@
 #ifndef DataStructureController_hpp
 #define DataStructureController_hpp
 
+#include "../Nodel/Node.hpp"
+#include <string>
+
 class DataStructureController
 {
 private:

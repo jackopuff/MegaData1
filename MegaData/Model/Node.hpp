@@ -19,4 +19,27 @@ public:
     Type getNodeData();
     Node<Type> * getNodePointer();
 };
-#endif /* Node_h*/
+/*
+ Implementation section
+ */
+
+template <class Type>
+Node<Type> :: Node()
+{
+        //Explicitly DO NOT instantiate the nodeData data member
+    this->nodePointer = nullptr;
+}
+
+template <class Type>
+Node<Type> :: Node(Type data)
+{
+    this->nodeData = data;
+    this->nodePointer = nullptr;
+}
+template <class Type>
+Node<Type> * Node<Type> :: getNodePointer()
+{
+    return this->nodePointer;
+}
+
+#endif /* Node_hpp*/

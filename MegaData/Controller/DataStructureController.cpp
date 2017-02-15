@@ -9,12 +9,16 @@
 #include "DataStructureController.hpp"
 #include <iostream>
 #include "../Model/IntNode.hpp"
+#include "../Model/IntNodeArray.hpp"
 using namespace std;
 
 DataStructureController:: DataStructureController()
 {
-    
+    wordNode = Node<string>("derpy mcderpface");
+    numberNode = Node<int>();
 }
+void DataStructureController:: testNodes()
+
 void DataStructureController :: start()
 {
     cout << "Starting the project"<<endl;
